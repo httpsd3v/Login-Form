@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="LoginBox">
+        <div class="innerLogin">
+        <legend>Username
+        <input type="username" id="username" required/></legend>
+        <legend>Password
+        <input type="password" id="password" required/></legend>
+        <button id="Login">Login</button>
+        <p>already have an account? <a onclick="showRegister()" href="#">Login</a></p>
+    </div>
+    </div>
+    <div id="RegistrationBox">
+        <div class="innerReg">
+        <legend>FirstName
+        <input type="FirstName" id="username" required/></legend>
+        <legend>LastName
+        <input type="LastName" id="password" required/></legend>
+        <legend>Username
+        <input type="username" id="username" required/></legend>
+        <legend>Password
+        <input type="password" id="password" required/></legend>
+        <button id="Login">Register</button>
+        <p> dont have an account? <a onclick="showLogin()" href="#">Register</a></p>
+    </div>
+    </div>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
